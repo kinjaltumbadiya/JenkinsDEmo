@@ -6,10 +6,10 @@ class demo
 	{
 		Scanner scanner = new Scanner (System.in);
 		
-		System.out.print("Enter username");  
+		System.out.println("Enter username");  
 		user = scanner.next();
 		
-		System.out.print("Enter password");  
+		System.out.println("Enter password");  
 		pass = scanner.next();
 	
 		System.out.println("Welcome" + user);
